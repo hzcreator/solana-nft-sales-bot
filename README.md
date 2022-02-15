@@ -1,2 +1,3 @@
 # solana-nft-sales-bot
-the complete guide on making a discord sales bot for solana NFT's
+THE COMPLETE GUIDE ON MAKING A SALES BOT FOR SOLANA NFT's 
+
