@@ -1,4 +1,4 @@
-const solanaWeb3 = require('@solana/web3.js');
+{const solanaWeb3 = require('@solana/web3.js');
 const {Connection, programs } = require("@metaplex/js");
 const axios = require('axios');
 const config = require("./config.json")
@@ -17,7 +17,7 @@ const metaplexConnection = new Connection('mainnet-beta');
 const { metadata: { Metadata } } = programs;
 const pollingInterval = 2000; // ms
 const marketplaceMap = {
-    "MEisE1HzehtrDpAAT8PnLHjpSSkRYakotTuJRPjTpo8": "Magic Eden",
+    "M2mx93ekt1fmXSVkTrUL9xVFHkmME8HTUi5Cyc5aF7K": "Magic Eden",
     "HZaWndaNWHFDd9Dhk5pqUUtsmoBCqzb1MLu3NAh1VX6B": "Alpha Art",
     "617jbWo616ggkDxvW1Le8pV38XLbVSyWY8ae6QUmGBAU": "Solsea",
     "CJsLwbP1iu5DuUikHEJnLfANgKy6stB2uFgvBBHoyxwz": "Solanart",
